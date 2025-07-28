@@ -1,6 +1,6 @@
 # Tauri Tasks
 
-![Tauri Tasks Screenshot](path/to/your/screenshot.png)
+![Tauri Tasks Screenshot](public/assets/screenshot.png)
 
 A modern, cross-platform desktop task management application built with Tauri, React, and shadcn/ui. This project serves as a comprehensive example of building a polished desktop app with a web-based frontend.
 
