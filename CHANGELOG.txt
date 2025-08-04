@@ -1,0 +1,24 @@
+# Changelog
+
+All notable changes to this project will be documented in this file.
+
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+
+## [1.0.0] - 2025-08-03
+
+### Added
+
+* **Initial Project Release:** First stable, feature-complete version of the Tauri Tasks application.
+* **Core Task Management:** Full CRUD (Create, Read, Update, Delete) functionality for tasks.
+* **Cross-Platform Support:** Built with Tauri to run natively on Windows, macOS, and Linux.
+* **Modern UI/UX:**
+    * Clean, responsive layout built with React, Tailwind CSS, and `shadcn/ui`.
+    * Professional card-based interface for organizing tasks.
+    * Themed components including buttons, inputs, checkboxes, badges, alerts, and dialogs.
+* **Advanced Theming System:**
+    * Light and Dark mode support via `next-themes`.
+    * User-selectable color themes (Default, Violet, Slate).
+* **Professional Features:**
+    * Confirmation dialog for destructive actions (deleting a task) to prevent errors.
+    * "Empty State" message that appears when the task list is empty.
+    * Project documentation (`README.md`) and an MIT License.
