@@ -24,6 +24,7 @@ export function ColorThemeSwitcher() {
         <DropdownMenuSeparator />
         <DropdownMenuRadioGroup value={theme} onValueChange={setTheme}>
           <DropdownMenuRadioItem value="default">Default</DropdownMenuRadioItem>
+          <DropdownMenuRadioItem value="green">Green</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="violet">Violet</DropdownMenuRadioItem>
           <DropdownMenuRadioItem value="slate">Slate</DropdownMenuRadioItem>
         </DropdownMenuRadioGroup>

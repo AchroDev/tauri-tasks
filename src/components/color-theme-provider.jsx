@@ -11,7 +11,7 @@ export function ColorThemeProvider({ children }) {
 
   useEffect(() => {
     const root = document.documentElement;
-    root.classList.remove("theme-violet", "theme-slate");
+    root.classList.remove("theme-green", "theme-violet", "theme-slate");
 
     if (theme !== "default") {
       root.classList.add(`theme-${theme}`);
